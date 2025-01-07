@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  /* background-color: #4caf50; */
+  background-color: #ffc200;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  color: #212121;
+}
+
+.tags {
+  margin: 1rem 0;
+}
+
+.tags span {
+  display: inline-block;
+  background-color: #eee;
+  color: #555;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  margin: 0.3rem;
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.photos img {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-link {
+  display: inline-block;
+  /* background-color: #4caf50; */
+  color: #ffc200;
+  text-decoration: none;
+  /* padding: 0.8rem 1.2rem; */
+  /* border-radius: 5px; */
+  font-size: 1rem;
+  /* margin-top: 1.5rem; */
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.header-container {
+  display: flex; /* Enables flexbox layout */
+  align-items: center; /* Aligns button and title vertically */
+  gap: 1rem; /* Adds space between the button and title */
+  margin-bottom: 2rem; /* Adds spacing below the header */
+}
+
+.return-button {
+  display: inline-block;
+  background-color: #4caf50;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  background: #ffc200;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: bold;
+  border: 0;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  padding: 10px 20px; /* Adds padding for spacing inside the button */
+  margin: 10px; /* Adds space around the button */
+  display: inline-flex; /* Allows content to center horizontally and vertically */
+  align-items: center; /* Vertically centers content */
+  justify-content: center; /* Horizontally centers content */
+  text-align: center; /* Ensures text is centered */
+}
+
+.btn:hover {
+  background: #474559;
+}
